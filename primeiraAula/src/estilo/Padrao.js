@@ -11,5 +11,14 @@ export default StyleSheet.create({
         fontWeight: 'bold',
         justifyContent: 'center',
         alignItems: 'center',
+    },
+    input: {
+        height: 71,
+        fontSize: 40,
+        borderColor: 'gray',
+        borderWidth: 1
+    },
+    font40: {
+        fontSize: 40
     }
 })
