@@ -34,7 +34,7 @@ export default class AddTask extends Component {
 
     render() {
         let datePicker = null
-        if(Platform.os === 'ios') {
+        if(Platform.OS === 'ios') {
             datePicker = <DatePickerIOS mode='date' date ={this.state.date} onDateChange={date => this.setState({ date })}/>
         }else {
             datePicker = <TouchableOpacity onPress={this.handleDateAndroidChanged}>
