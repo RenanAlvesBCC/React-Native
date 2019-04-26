@@ -6,5 +6,8 @@ export default {
         mainText: '#222',
         subText: '#555',
         default: '#1631be',
+        tomorrow: '#c9742e',
+        week: '#15721e',
+        month: '#1631be',
     },
 }
